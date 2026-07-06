@@ -2,58 +2,74 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 
-  /* toprak yeşili + krem */
-  background: linear-gradient(135deg, #6b8e23, #f3e9d2);
+  /* KREM ANA TEMA */
+  background-color: #f6f1e7;
 
   color: #2f2f2f;
   text-align: center;
 }
 
+/* HEADER */
 header {
   padding: 40px;
-  background: #3e5f3e;
-  color: #f3e9d2;
+  background-color: #e8dcc8;
+  color: #3a2f22;
+  border-bottom: 2px solid #d6c7ad;
 }
 
 header h1 {
   font-size: 40px;
   margin: 0;
+  letter-spacing: 2px;
 }
 
 .quote {
   display: block;
   margin-top: 10px;
-  color: #aaa;
+  color: #6b5b4b;
   font-style: italic;
 }
 
+/* HERO */
 .hero {
   padding: 60px 20px;
-  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  background-color: #f3eadb;
 }
 
 .btn {
   display: inline-block;
   margin-top: 20px;
-  padding: 10px 20px;
-  background: white;
-  color: black;
+  padding: 12px 25px;
+  background: #8b6f47;
+  color: white;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 12px;
+  transition: 0.3s;
 }
 
+.btn:hover {
+  background: #6f5638;
+}
+
+/* BOOKS */
 #books {
   padding: 40px;
 }
 
 .book-card {
-  background: #f3e9d2;
+  background: #fffaf3;
   color: #2f2f2f;
   margin: 20px auto;
   padding: 20px;
-  width: 250px;
+  width: 260px;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border: 1px solid #e6dccb;
+  transition: 0.3s;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
 }
 
 .book-card img {
@@ -61,8 +77,17 @@ header h1 {
   border-radius: 10px;
 }
 
+/* ABOUT & CONTACT */
+#about, #contact {
+  padding: 40px;
+  background: #f3eadb;
+  margin-top: 20px;
+}
+
+/* FOOTER */
 footer {
   padding: 20px;
-  background: #111;
+  background: #3a2f22;
+  color: #f6f1e7;
   margin-top: 40px;
 }
