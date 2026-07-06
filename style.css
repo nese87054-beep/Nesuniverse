@@ -145,31 +145,79 @@ footer {
     font-size: 30px;
   }
 }
-.book-detail {
+.book-page {
   display: flex;
-  gap: 30px;
+  gap: 50px;
+  padding: 60px;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
-  padding: 60px 20px;
   flex-wrap: wrap;
-  background: #f3eadb;
+  background: #f6f1e7;
 }
 
-.book-detail img {
-  width: 300px;
+.book-cover img {
+  width: 320px;
   border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
 
-.book-info {
-  max-width: 400px;
+.book-content {
+  max-width: 500px;
   text-align: left;
 }
 
-.book-info h2 {
-  margin-top: 15px;
+.book-content h2 {
+  margin-top: 20px;
+  color: #3a2f22;
 }
 
-.book-info p {
-  line-height: 1.6;
+.book-content p {
+  line-height: 1.7;
+  color: #4a3b2a;
+}
+
+/* BUTONLAR */
+.buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 18px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn.back {
+  background: #ddd;
+  color: #333;
+}
+
+.btn.back:hover {
+  background: #c9c9c9;
+}
+
+.btn.buy {
+  background: #8b6f47;
+  color: white;
+}
+
+.btn.buy:hover {
+  background: #6f5638;
+}
+
+/* MOBİL */
+@media (max-width: 768px) {
+  .book-page {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .book-content {
+    text-align: center;
+  }
 }
