@@ -145,3 +145,31 @@ footer {
     font-size: 30px;
   }
 }
+.book-detail {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+  background: #f3eadb;
+}
+
+.book-detail img {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.book-info {
+  max-width: 400px;
+  text-align: left;
+}
+
+.book-info h2 {
+  margin-top: 15px;
+}
+
+.book-info p {
+  line-height: 1.6;
+}
