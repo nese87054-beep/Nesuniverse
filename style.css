@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 40px;
+  background: #1a1a1a;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.quote {
+  display: block;
+  margin-top: 10px;
+  color: #aaa;
+  font-style: italic;
+}
+
+.hero {
+  padding: 60px 20px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#books {
+  padding: 40px;
+}
+
+.book-card {
+  background: #1e1e1e;
+  margin: 20px auto;
+  padding: 20px;
+  width: 250px;
+  border-radius: 15px;
+}
+
+.book-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 20px;
+  background: #111;
+  margin-top: 40px;
+}
