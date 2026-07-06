@@ -1,3 +1,31 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #3a2f22;
+  color: #f6f1e7;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  align-items: center;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar .menu a {
+  color: #f6f1e7;
+  margin-left: 15px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar .menu a:hover {
+  color: #d6c7ad;
+  }
+
 body {
   margin: 0;
   font-family: "Arial", sans-serif;
