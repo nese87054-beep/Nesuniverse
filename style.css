@@ -1,14 +1,18 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #2e7d32, #f5f5dc);
-  color: #111;
+
+  /* toprak yeşili + krem */
+  background: linear-gradient(135deg, #6b8e23, #f3e9d2);
+
+  color: #2f2f2f;
   text-align: center;
 }
 
 header {
   padding: 40px;
-  background: #1a1a1a;
+  background: #3e5f3e;
+  color: #f3e9d2;
 }
 
 header h1 {
@@ -43,11 +47,13 @@ header h1 {
 }
 
 .book-card {
-  background: #1e1e1e;
+  background: #f3e9d2;
+  color: #2f2f2f;
   margin: 20px auto;
   padding: 20px;
   width: 250px;
   border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .book-card img {
