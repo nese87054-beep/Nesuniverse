@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f1e7;
+  color: #2f2f2f;
+}
+
+/* NAVBAR */
 .navbar {
   position: sticky;
   top: 0;
@@ -19,18 +27,10 @@
   color: #f6f1e7;
   margin-left: 15px;
   text-decoration: none;
-  transition: 0.3s;
 }
 
 .navbar .menu a:hover {
   color: #d6c7ad;
-  }
-
-body {
-  margin: 0;
-  font-family: "Arial", sans-serif;
-  background-color: #f6f1e7;
-  color: #2f2f2f;
 }
 
 /* HEADER */
@@ -39,7 +39,6 @@ header {
   background: #e8dcc8;
   color: #3a2f22;
   text-align: center;
-  border-bottom: 2px solid #d6c7ad;
 }
 
 header h1 {
@@ -57,17 +56,20 @@ header h1 {
 
 /* HERO */
 .hero {
-  padding: 70px 20px;
+  padding: 80px 20px;
   text-align: center;
-  background: #f3eadb;
+  background: linear-gradient(135deg, #f3eadb, #e8dcc8);
 }
 
 .hero h2 {
-  font-size: 22px;
-  color: #4a3b2a;
+  font-size: 24px;
 }
 
-/* BUTTON */
+.hero p {
+  font-style: italic;
+  color: #6b5b4b;
+}
+
 .btn {
   display: inline-block;
   margin-top: 20px;
@@ -76,35 +78,23 @@ header h1 {
   color: white;
   text-decoration: none;
   border-radius: 12px;
-  transition: 0.3s;
 }
 
 .btn:hover {
   background: #6f5638;
-  transform: scale(1.05);
 }
 
-/* BOOK SECTION */
-#books {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-#books h2 {
-  margin-bottom: 30px;
-  font-size: 28px;
-}
-
-/* GRID SİSTEMİ */
+/* BOOKS GRID */
 #books {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
   max-width: 1000px;
   margin: auto;
+  padding: 60px 20px;
+  text-align: center;
 }
 
-/* BOOK CARD */
 .book-card {
   background: #fffaf3;
   padding: 15px;
@@ -123,18 +113,14 @@ header h1 {
   border-radius: 10px;
 }
 
-.book-card h3 {
-  margin: 10px 0 5px;
-}
-
 .book-card a {
   display: inline-block;
   margin-top: 10px;
-  text-decoration: none;
-  color: white;
   background: #3a2f22;
+  color: white;
   padding: 8px 15px;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 /* ABOUT + CONTACT */
@@ -151,16 +137,11 @@ footer {
   background: #3a2f22;
   color: #f6f1e7;
   text-align: center;
-  margin-top: 40px;
 }
 
-/* MOBİL UYUMLULUK */
+/* MOBİL */
 @media (max-width: 600px) {
   header h1 {
     font-size: 30px;
-  }
-
-  .hero {
-    padding: 50px 15px;
   }
 }
