@@ -279,3 +279,35 @@ footer {
   font-size: 14px;
   color: #8b6f47;
 }
+/* KARAKTER GALERİSİ */
+
+.character-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.character-card{
+    width: 260px;
+    background: #fffaf3;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.character-card img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.character-card h3{
+    color: #3a2f22;
+}
+
+.character-card p{
+    text-align: left;
+    line-height: 1.6;
+}
