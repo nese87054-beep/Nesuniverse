@@ -1,0 +1,135 @@
+/* ===========================
+   HAREKETLİ YEŞİL AURORA
+=========================== */
+
+body{
+    margin:0;
+    padding:0;
+    color:white;
+    background:#050505;
+    overflow-x:hidden;
+    position:relative;
+}
+
+/* Arka plan katmanı */
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    z-index:-2;
+
+    background:
+    radial-gradient(circle at 20% 20%, rgba(0,255,120,.25), transparent 40%),
+    radial-gradient(circle at 80% 40%, rgba(0,180,100,.22), transparent 45%),
+    radial-gradient(circle at 40% 80%, rgba(50,255,170,.18), transparent 40%),
+    linear-gradient(180deg,#030303,#07120d,#020202);
+
+    background-size:200% 200%;
+
+    animation:aurora 30s ease infinite;
+}
+
+/* Hafif sis efekti */
+
+body::after{
+    content:"";
+    position:fixed;
+    inset:0;
+    z-index:-1;
+
+    background:
+    radial-gradient(circle at 50% 50%, rgba(255,255,255,.03), transparent 70%);
+
+    backdrop-filter:blur(35px);
+}
+
+@keyframes aurora{
+
+0%{
+background-position:0% 50%;
+}
+
+25%{
+background-position:40% 30%;
+}
+
+50%{
+background-position:100% 60%;
+}
+
+75%{
+background-position:60% 100%;
+}
+
+100%{
+background-position:0% 50%;
+}
+
+}
+.book-card,
+.story-card,
+.deneme-card,
+.news-card{
+
+background:rgba(18,18,18,.75);
+
+backdrop-filter:blur(12px);
+
+border:1px solid rgba(0,255,150,.15);
+
+box-shadow:
+0 0 25px rgba(0,255,120,.08);
+
+border-radius:18px;
+
+transition:.4s;
+
+}
+.book-card:hover,
+.story-card:hover,
+.deneme-card:hover,
+.news-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:
+0 0 35px rgba(0,255,140,.25);
+
+}
+.btn{
+
+background:transparent;
+
+border:2px solid #39ff9c;
+
+color:white;
+
+padding:12px 26px;
+
+border-radius:40px;
+
+transition:.35s;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+.btn:hover{
+
+background:#39ff9c;
+
+color:black;
+
+box-shadow:
+0 0 20px #39ff9c;
+
+}
+h1,h2,h3{
+
+text-shadow:
+0 0 10px rgba(0,255,120,.4);
+
+}
