@@ -506,3 +506,22 @@ ul{
 ul li{
     margin:12px 0;
 }
+article{
+    max-width:900px;
+    margin:40px auto;
+    padding:0 20px;
+    line-height:1.9;
+    text-align:justify;
+}
+
+article p{
+    margin-bottom:25px;
+}
+
+main img{
+    display:block;
+    margin:30px auto;
+    max-width:900px;
+    width:100%;
+    border-radius:15px;
+}
