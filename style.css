@@ -476,3 +476,9 @@ footer {
 .deneme-card a:hover{
     background:#6f5638;
 }
+article{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
