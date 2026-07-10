@@ -477,8 +477,32 @@ footer {
     background:#6f5638;
 }
 article{
-    max-width:800px;
-    margin:auto;
-    line-height:1.8;
+    max-width:850px;
+    margin:50px auto;
+    padding:0 20px;
+    line-height:1.9;
     font-size:18px;
+    text-align:justify;
+}
+    .deneme img{
+    width:100%;
+    max-width:900px;
+    display:block;
+    margin:30px auto;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+.deneme h1{
+    text-align:center;
+    font-size:48px;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+ul{
+    max-width:850px;
+    margin:auto;
+}
+
+ul li{
+    margin:12px 0;
 }
